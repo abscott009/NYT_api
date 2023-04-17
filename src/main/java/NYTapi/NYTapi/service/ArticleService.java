@@ -2,13 +2,13 @@ package NYTapi.NYTapi.service;
 
 import NYTapi.NYTapi.model.Article;
 import NYTapi.NYTapi.model.NytResponse;
-import lombok.Value;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
 import java.util.ArrayList;
 import java.util.List;
+
 
 @Service
 public class ArticleService {
